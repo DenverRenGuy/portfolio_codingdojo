@@ -1,0 +1,142 @@
+/* site.css
+    Author: Jason Wilcox
+    Created for Portfolio for Jason Wilcox - Coding Dojo
+
+    REVISION
+    2016-08-25  |  Jason Wilcox  | Initial Creation/Coding
+
+*/
+
+/*COLOR PALLETE:  http://paletton.com/palette.php?uid=54e100krklLgbzAmxrgxsflNM6u
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h6{
+    text-align: center;
+    color: white;
+}
+
+#wrapper{
+    margin: auto;
+    width: 920px;
+    background: #0F6966;
+    font-family: 'Arimo', sans-serif;
+}
+
+#nav{
+    height: 80px;
+    background: #004A47;
+}
+
+    #nav h1{
+        color: white;
+        text-align: center;
+        padding: 20px 0px 10px 0px;
+    }
+
+    #nav ul{
+        list-style: none;
+        overflow: hidden;
+        background: #640033;
+    }
+
+    #nav li{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+        #nav li a{
+            color: white;
+            text-align: center;
+            font-size: 130%;
+            padding: 20px 10px 0px 10px;
+            text-decoration: none;
+        }
+
+#content-left{
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+}
+
+    #content-left h2{
+        text-align: center;
+        margin: 20px 0px 20px 0px;
+    }
+
+    #content-left p{
+        font-size: 90%;
+        margin: 0px 10px 0px 10px;
+
+    }
+
+        #content-left p:not(:first-child){
+            margin-top: 5px;
+        }
+
+#content-right{
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    margin-top: 30px;
+}
+
+#tabs{}
+
+    #tabs li{
+    font-size: 80%;
+    padding-top: 5px;
+
+    }
+
+        #tabs li ul{
+            margin: 0px 0px 0px 10px;
+        }
+
+    #tabs h4{
+        padding-bottom: 10px;
+    }
+
+    #tabs h4 a{
+        text-decoration: none;
+    }
+
+#footer{
+    background: #1B0954;
+    margin: 20px 0px 20px 0px;
+}
+
+#resume{
+    background: #106D60;
+}
+
+    #resume h1, h2, h4{
+        color: white;
+        text-align: center;
+    }
+
+    #resume h1, h2, h3, h4, h5{
+        text-transform: uppercase;
+    }
+
+    #resume h4{
+        margin: 10px, 0px 0px 0px;
+        padding: 5px 85px 5px 85px;
+        background-color: #7966B8;
+        font-size: 90%;
+    }
+
+    #resume h3, h5{
+        text-indent: 10px;
+        margin: 5px 0px 0px 0px;
+        color: white;
+    }
+    #resume h3 {
+        background: #1B0954;
+        font-size: 90%;
+    }
